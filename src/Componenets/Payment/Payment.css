@@ -1,0 +1,45 @@
+.payment{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; 
+  background-color: #ccc;
+}
+
+.payment__container > h1{
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: rgba(234,237,237);
+  border-bottom: 1px solid lightgray ;
+}
+
+.payment__container > h1 a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.payment__section{
+  display: flex;
+  margin: auto;
+  padding: 20px;
+  margin:  0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__section{
+  margin-left: 12px;
+}
+
+
+.payment__section-title{
+    flex:  0.2;
+}
+.payment__section-address,.payment__section-item, .payment__section-cart{
+    flex:  0.8;
+}
+
+.payment__section-cart{
+  
+}

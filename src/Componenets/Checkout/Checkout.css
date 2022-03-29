@@ -1,0 +1,35 @@
+.checkout__container{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; 
+  background-color: #ccc;
+}
+.checkout{
+  display: flex;
+  width: 100%;
+}
+
+.checkout__img{
+  width: 100%;
+  max-width: 375px;
+  max-width: 250px;
+  object-fit: contain;
+}
+.checkout__left{
+  width: 80%;
+  
+}
+
+.checkout__title{
+  margin-top: 12px;
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+}
+
+.checkout__item{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
